@@ -27,16 +27,16 @@ function App() {
   return (
     <>
       <h1>Hello World!</h1>
-      <ExpenseItem title={Expense[0].title} amount={Expense[0].amount} date={Expense[0].date}></ExpenseItem>
+      <ExpenseItem title={Expense[0].title} amount={Expense[0].amount} date={Expense[0].date} />
       <ExpenseItem title={Expense[1].title} amount=
-        {Expense[1].amount} date={Expense[1].date}></
-      ExpenseItem>
+        {Expense[1].amount} date={Expense[1].date} />
+
       <ExpenseItem title={Expense[2].title} amount=
-        {Expense[2].amount} date={Expense[2].date}></
-      ExpenseItem>
+        {Expense[2].amount} date={Expense[2].date} />
+
       <ExpenseItem title={Expense[3].title} amount=
-        {Expense[3].amount} date={Expense[3].date}></
-      ExpenseItem>
+        {Expense[3].amount} date={Expense[3].date} />
+
 
 
 
